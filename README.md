@@ -1,2 +1,2 @@
-Rikrop.Core.Wcf
-===============
+Rikrop.Core.Framework
+=====================

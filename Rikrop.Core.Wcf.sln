@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Wcf", "Rikrop.Core.Wcf\Rikrop.Core.Wcf.csproj", "{346900BC-C853-4EDE-98D5-A2D1A6EDDD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Wcf.Test", "Rikrop.Core.Wcf.Test\Rikrop.Core.Wcf.Test.csproj", "{03014FF9-B267-44E9-AA2B-C53D1A7484BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D51BBBF3-0CE3-4365-9FD3-075229F0BFE8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Wcf.40", "Rikrop.Core.Wcf.40\Rikrop.Core.Wcf.40.csproj", "{4A7FA9F6-1BFE-4898-B2FF-81665DE434C2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vadimyan.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Rikrop.Core.Wcf\\Rikrop.Core.Wcf.csproj
+		SccProjectName1 = Rikrop.Core.Wcf
+		SccLocalPath1 = Rikrop.Core.Wcf
+		SccProjectUniqueName2 = Rikrop.Core.Wcf.Test\\Rikrop.Core.Wcf.Test.csproj
+		SccProjectName2 = Rikrop.Core.Wcf.Test
+		SccLocalPath2 = Rikrop.Core.Wcf.Test
+		SccProjectUniqueName3 = Rikrop.Core.Wcf.40\\Rikrop.Core.Wcf.40.csproj
+		SccProjectName3 = Rikrop.Core.Wcf.40
+		SccLocalPath3 = Rikrop.Core.Wcf.40
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{346900BC-C853-4EDE-98D5-A2D1A6EDDD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346900BC-C853-4EDE-98D5-A2D1A6EDDD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346900BC-C853-4EDE-98D5-A2D1A6EDDD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346900BC-C853-4EDE-98D5-A2D1A6EDDD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03014FF9-B267-44E9-AA2B-C53D1A7484BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03014FF9-B267-44E9-AA2B-C53D1A7484BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03014FF9-B267-44E9-AA2B-C53D1A7484BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03014FF9-B267-44E9-AA2B-C53D1A7484BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7FA9F6-1BFE-4898-B2FF-81665DE434C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7FA9F6-1BFE-4898-B2FF-81665DE434C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7FA9F6-1BFE-4898-B2FF-81665DE434C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7FA9F6-1BFE-4898-B2FF-81665DE434C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
