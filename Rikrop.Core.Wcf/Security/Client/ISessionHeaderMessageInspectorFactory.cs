@@ -6,6 +6,6 @@ namespace Rikrop.Core.Wcf.Security.Client
 {
     public interface ISessionHeaderMessageInspectorFactory
     {
-        SessionHeaderMessageInspector Create(IReadOnlyCollection<ClientOperation> clientOperations, Type contractClientType);
+        IClientMessageInspector Create(IReadOnlyCollection<ClientOperation> clientOperations, Type contractClientType);
     }
 }

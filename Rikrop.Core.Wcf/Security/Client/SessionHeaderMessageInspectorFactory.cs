@@ -18,7 +18,7 @@ namespace Rikrop.Core.Wcf.Security.Client
             _sessionHeaderInfo = sessionHeaderInfo;
         }
 
-        public SessionHeaderMessageInspector Create(IReadOnlyCollection<ClientOperation> clientOperations, Type contractClientType)
+        public IClientMessageInspector Create(IReadOnlyCollection<ClientOperation> clientOperations, Type contractClientType)
         {
             return new SessionHeaderMessageInspector(_loginMethod, _sessionIdResolver, _sessionHeaderInfo, clientOperations, contractClientType);
         }
